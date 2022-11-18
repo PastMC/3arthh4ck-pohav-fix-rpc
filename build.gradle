@@ -93,7 +93,6 @@ dependencies {
     }
     */
 
-    compile group: 'club.minnced', name: 'java-discord-rpc', version: '2.0.1'
     compile group: 'com.formdev', name: 'flatlaf', version: '1.5'
 }
 
@@ -131,8 +130,7 @@ shadowJar {
     finalizedBy(copyShadowJar)
     dependencies {
         include(dependency('org.spongepowered:mixin'))
-        include(dependency('club.minnced:java-discord-rpc:2.0.1'))
-        include(dependency('club.minnced:discord-rpc-release:v3.3.0'))
+     
         include(dependency('com.formdev:flatlaf:1.5'))
     }
     exclude 'dummyThing'
