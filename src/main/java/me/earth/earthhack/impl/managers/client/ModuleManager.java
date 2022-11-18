@@ -80,7 +80,7 @@ import me.earth.earthhack.impl.modules.misc.packetdelay.PacketDelay;
 import me.earth.earthhack.impl.modules.misc.packets.Packets;
 import me.earth.earthhack.impl.modules.misc.pingspoof.PingSpoof;
 import me.earth.earthhack.impl.modules.misc.portals.Portals;
-import me.earth.earthhack.impl.modules.misc.rpc.RPC;
+
 import me.earth.earthhack.impl.modules.misc.settingspoof.SettingSpoof;
 import me.earth.earthhack.impl.modules.misc.skinblink.SkinBlink;
 import me.earth.earthhack.impl.modules.misc.spammer.Spammer;
@@ -267,7 +267,7 @@ public class ModuleManager extends IterationRegister<Module>
 
         this.forceRegister(new AutoRegear());
         this.forceRegister(new PacketDelay());
-        this.forceRegister(new RPC());
+        
 
         this.forceRegister(new Anchor());
         this.forceRegister(new AutoSprint());
